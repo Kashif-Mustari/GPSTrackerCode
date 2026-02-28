@@ -12,7 +12,7 @@ HardwareSerial gpsSerial(2);   // Using UART2
 
 // ================= LED CONFIG =================
 #define NETWORK_LED 18   // 🔴 Red LED (WiFi)
-#define GPS_LED 21       // 🟢 Green LED (GPS Fix)
+#define GPS_LED 21      // 🟢 Green LED (GPS Fix)
 
 // ================= VARIABLES =================
 String nmeaLine = "";
